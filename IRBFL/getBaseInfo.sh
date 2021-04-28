@@ -1,0 +1,17 @@
+defects4j query -p Chart -q "report.id,report.url,classes.modified" >> /home/ubuntu/BaseInfo/Chart
+defects4j query -p Cli -q "report.id,report.url,classes.modified" >> /home/ubuntu/BaseInfo/Cli
+defects4j query -p Closure -q "report.id,report.url,classes.modified" >> /home/ubuntu/BaseInfo/Closure
+defects4j query -p Codec -q "report.id,report.url,classes.modified" >> /home/ubuntu/BaseInfo/Codec
+defects4j query -p Collections -q "report.id,report.url,classes.modified" >> /home/ubuntu/BaseInfo/Collections
+defects4j query -p Compress -q "report.id,report.url,classes.modified" >> /home/ubuntu/BaseInfo/Compress
+defects4j query -p Csv -q "report.id,report.url,classes.modified" >> /home/ubuntu/BaseInfo/Csv
+defects4j query -p Gson -q "report.id,report.url,classes.modified" >> /home/ubuntu/BaseInfo/Gson
+defects4j query -p JacksonCore -q "report.id,report.url,classes.modified" >> /home/ubuntu/BaseInfo/JacksonCore
+defects4j query -p JacksonDatabind -q "report.id,report.url,classes.modified" >> /home/ubuntu/BaseInfo/JacksonDatabind
+defects4j query -p JacksonXml -q "report.id,report.url,classes.modified" >> /home/ubuntu/BaseInfo/JacksonXml
+defects4j query -p Jsoup -q "report.id,report.url,classes.modified" >> /home/ubuntu/BaseInfo/Jsoup
+defects4j query -p JxPath -q "report.id,report.url,classes.modified" >> /home/ubuntu/BaseInfo/JxPath
+defects4j query -p Lang -q "report.id,report.url,classes.modified" >> /home/ubuntu/BaseInfo/Lang
+defects4j query -p Math -q "report.id,report.url,classes.modified" >> /home/ubuntu/BaseInfo/Math
+defects4j query -p Mockito -q "report.id,report.url,classes.modified" >> /home/ubuntu/BaseInfo/Mockito
+defects4j query -p Time -q "report.id,report.url,classes.modified" >> /home/ubuntu/BaseInfo/Time
